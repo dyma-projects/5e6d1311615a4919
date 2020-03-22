@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'newapp';
+
+  public inputType ="date";
+
+  public couleur="blue";
+  public changeColor(couleur:string):void{
+           this.couleur=couleur;
+  }
+
+  public content ="";
+  
+  
 }
